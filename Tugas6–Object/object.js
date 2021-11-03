@@ -75,5 +75,5 @@ function shoppingTime(memberId, money){
 shoppingTime('1820RzKrnWn08', 2475000)
 console.log("\n");
 
-console.log('maaf ka blm sempet mengejakan  no 4');
+console.log('no4');
 
