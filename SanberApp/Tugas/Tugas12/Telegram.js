@@ -9,7 +9,6 @@ import {
   FlatList,
   TouchableOpacity,
 } from "react-native";
-import { Colors } from "react-native/Libraries/NewAppScreen";
 
 import Data from "./dummy";
 
