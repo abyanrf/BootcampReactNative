@@ -12,7 +12,7 @@ import {
   TextInput,
 } from "react-native";
 
-const baseURL = " https://sanbers-news-api.herokuapp.com/api/news";
+const baseURL = " https://sanbers-news-api.herokuapp.com/api";
 const client = axios.create({
   baseURL: baseURL,
 });
