@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "_id": "618d11a7b54a43f4ce49aae3",
+      "title": "Test News 10000",
+      "value": "Ini adalah berita baru 10000",
+      "__v": 0
+    },
+    {
+      "_id": "618d3fd17ba016fcf6821040",
+      "title": "Kebakaran rumah",
+      "value": "Terjadi kebakaran di daerah Tanggerang. Kebakaran terjadi dikarenakan konsleting listrik",
+      "__v": 0
+    },
+    {
+      "_id": "618d417c7ba016fcf6821052",
+      "title": "Penemuan fosil",
+      "value": "Telah ditemukan Fosil manusia purba.",
+      "__v": 0
+    },
+    {
+      "_id": "618d427a7ba016fcf6821065",
+      "title": "Indonesia vs Malaysia",
+      "value": "Kevin sanjaya Dan markus gideon menang atas upin dan ipin",
+      "__v": 0
+    },
+    {
+      "_id": "618db299696e41f0abba9373",
+      "title": "bertia pop 10",
+      "value": "Ini adalah berita pop 10",
+      "__v": 0
+    }
+  ]
+}

@@ -161,7 +161,7 @@ const AboutMe = () => {
               <Image
                 source={require("./asset/email.png")}
                 style={{ marginHorizontal: 10, marginVertical: 5 }}
-              />
+                />
               <Text style={{ fontSize: 17, marginLeft: 5 }}>
                 rabyan78@gmail.com
               </Text>
