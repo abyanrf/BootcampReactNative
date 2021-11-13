@@ -1,28 +1,26 @@
-import React from 'react'
-import { StyleSheet, Text, View ,StatusBar} from 'react-native'
+import React from "react";
+import { StyleSheet, Text, View, StatusBar, Button } from "react-native";
 
-const LoginScreen = () => {
-    return (
-        <View>
-            <StatusBar/>
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
-        <Button
-          title="Go to Details"
-          onPress={() => navigation.navigate('Details')}
+const LoginScreen = ({navigation}) => {
+  return (
+    <View  style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <StatusBar />
+      <Text style={{marginBottom:15,fontSize:20}}>Login</Text>
+      <Button
+        title ='menuju Home'
+          onPress={() => navigation.navigate("MyDrawwer",{
+              screen : 'App',params:{
+                  screen: 'About'
+              }
+          })}
         />
-  
-        <Button
-          color="red"
-          title="Go to Profile"
-          onPress={() => navigation.navigate('Profiles')}
-        />
-  
-      </View>
-        </View>
-    )
-}
+        
+    </View>
+  );
+};
 
-export default LoginScreen
+export default LoginScreen;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
+
+

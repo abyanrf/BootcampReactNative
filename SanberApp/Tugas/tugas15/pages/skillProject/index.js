@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const SkillProject = () => {
     return (
-        <View>
+        <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
             <Text>SkillProject</Text>
         </View>
     )

@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const Setting = () => {
     return (
-        <View>
-            <Text></Text>
+        <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+            <Text>Setting</Text>
         </View>
     )
 }

@@ -22,13 +22,30 @@ const Router = () => {
     return (
         <NavigationContainer >
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="LoginScreen" component={LoginScreen} />
-          <Stack.Screen name="About" component={About} />
+          <Stack.Screen name="LoginScreen" component={LoginScreen} /> 
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="MainApp" component={MainApp} />
+          <Stack.Screen name="MyDrawwer" component={MyDrawwer} />
         </Stack.Navigator>
       </NavigationContainer>
     )
 }
 
+const MainApp = ()=>(
+    <Tab.Navigator screenOptions={{ headerShown: false }}>
+       <Tab.Screen name="About" component={About} />
+       <Tab.Screen name="SkillProject" component={SkillProject} />
+    </Tab.Navigator>
+)
+
+const MyDrawwer= () =>(
+    <Drawwer.Navigator >
+        <Drawwer.Screen name="App" component={MainApp}/>
+        <Drawwer.Screen name="Home" component={Home}/>
+        <Drawwer.Screen name="Setting" component={Setting}/>
+        
+    </Drawwer.Navigator>
+)
 export default Router
 
 const styles = StyleSheet.create({})
