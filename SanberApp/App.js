@@ -6,6 +6,7 @@ import Login from "./Tugas/Tugas13/LoginScreen";
 import AboutMe from "./Tugas/Tugas13/AboutScreen";
 import Flexbox from "./Tugas/Tugas13/flexbox";
 import Latihan from "./Tugas/tugas14/latihan";
+import Tugas15 from "./Tugas/tugas15";
 
 export default function App() {
   // const [isShow, setIsShow] = useState (true);
@@ -18,7 +19,7 @@ export default function App() {
 
   return (
     <>
-  <Latihan/>
+  <Tugas15/>
     </>
   );
 }
